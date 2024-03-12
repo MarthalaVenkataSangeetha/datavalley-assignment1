@@ -17,3 +17,5 @@ public class CustomValidationExample {
         if (number < 0) {
             throw new CustomValidationException("Number cannot be negative");
         }
+    }
+}
